@@ -1,4 +1,12 @@
-PODBASE2 USERS MANUAL
+<!DOCTYPE html>
+<html>
+<head>
+<title>PODBASE2 USERS MANUAL</title>
+</head>
+<body>
+<pre>
+
+<H1>PODBASE2 USERS MANUAL</H1>
 
 Click_Pencil_Icon_2_Read: HELP page (these instructions)
 
@@ -181,4 +189,6 @@ III.  TEMPLATE MANAGER TAB
 
 IV.  PROJECT PERMISSIONS TAB - available if "MANAGE_PEMISSIONS" is granted.  See Owner's Manual
 
-	
+	</pre>
+</body>
+</html>
