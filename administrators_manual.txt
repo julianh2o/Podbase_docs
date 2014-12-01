@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>
+PODBASE2 ADMINISTRATOR'S MANUAL</title>
 </head>
 <body>
-The content of the document......
-</body>
-</html>
+<pre>
 
-PODBASE2 ADMINISTRATOR'S MANUAL
+<H1>PODBASE2 ADMINISTRATOR'S MANUAL</H1>
 
 This document describes the various administrative levels available in Podbase2.  In practice, 
 these are "Roles" consisting  of clusters of check-list style permissions granted under the
@@ -164,3 +163,7 @@ POWERS CURRENTY NOT AVAILABLE:
 	3.  The ability to see whether a new user has actually activated their account.
 
 [NOTE:  THe highest level of administration is charged with creating new projects and inviting/deleting users]
+
+</pre>
+</body>
+</html>
