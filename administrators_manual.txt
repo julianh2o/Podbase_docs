@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+The content of the document......
+</body>
+</html>
+
 PODBASE2 ADMINISTRATOR'S MANUAL
 
 This document describes the various administrative levels available in Podbase2.  In practice, 
