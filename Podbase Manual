@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>PODBASE2 MANUAL</title>
 </head>
 <body>
-The content of the document......
-</body>
-</html>
+<pre>
+
 
 PODBASE2 MANUAL
 
@@ -186,3 +185,7 @@ to be. Be sure to maintain the original extension (e.g .jar for Java files)
 >
 > Julian
 >
+
+</pre>
+</body>
+</html>
