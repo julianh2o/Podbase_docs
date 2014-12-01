@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<pre>
+
+
+</pre>
+</body>
+</html>
+
 PODBASE2- GETTING STARTED
 
 1.  Whan you are granted access to Podbase images, you will receive first a log-on notice along 
