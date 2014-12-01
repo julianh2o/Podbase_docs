@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+The content of the document......
+</body>
+</html>
+
 GitHub for Dummies
 
 GitHub is an open-access program repository on which the code for Podbase is stored and which also contains the Podbase manuals and the registry of bug reports.  For first-time users, follow the instructions in the section below for registering with GitHub.  To post a bug report, proceed as follows:
