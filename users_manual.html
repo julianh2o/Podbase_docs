@@ -6,14 +6,14 @@
 <body>
 <pre>
 
-<H1>PODBASE2 USERS MANUAL</H1>
+PODBASE2 USERS MANUAL
 
 Click_Pencil_Icon_2_Read: HELP page (these instructions)
 
 
 I.  HOME PAGE
 
-As a regular user, granted at least viewing provieges to images and metadata on a project, you will see upon logon the following options:
+As a regular user, granted at least viewing privileges to images and metadata on a project, you will see upon logon the following options:
 
 1.  Links to facilities for changing password (upper right corner), to the manual (lower left), to the Podbase open-source code, to the creator's home page, and for reporting a bug via GitHub (the standard medium for information exchange in Podbase).
 
@@ -44,22 +44,33 @@ In the Browser window, browse available images by navigating through the directo
 	6.  "Browser link and thumbnail" window has editable-text links to the browser  
 		window and the image that can be copy/pasted into summary HTML pages. 
 	7.  "Toggle hidden attributes" reveals/hides susceptible metadata attributes
-	8.  "Add new attribute" [for persons with Data_Edit pemission?] - adds an attribute box 
-		labeled by what is typed in the set-up screen, then the "value" of the attribute can be 
-		entered in the regular data field.  The added atribute carries over into the Analysis mode.
-		It does not become incorporated in the tamplate -- i.e. it is image-specific.  It can
-		be viewed by all aothorized to view the metadata for that image.
 
+B. SEARCHING
 
-B.  METADATA EDITING
+	1.  To search for a single search-string (which does not include spaces), type the string into the window above the directory.  The search will initiate while you type.
+	2.  Results of the search will appear as a list of clickable links once the search is complete
+	3.  A <space> between two search terms will be interpreted as an "AND" rather than counting the whole string as a single search term.
+	4. Use quotes to treat a term with embedded spaces as a single term e.g. "dark glia" vs dark glia [=dark AND glia].
 
-	If you are authorized (EDIT_DATA_METADATA), click in the field to the right of the field name (), and it will open for editing, with a cursor bar at the entry point.  Editing is like any other text processing operation.  Click outside the edit box when done to close and save.  There is no "Undo."  Similar editing for preparing metadata for open access is authorized by the permission EDIT_ANALYSIS_METADATA.
+C.  METADATA EDITING
 
-C.  TEMPLATE CHOICE
+	1, If you are authorized (EDIT_DATA_METADATA), click in the field to the right of the field name (), and it will open for editing, with a cursor bar at the entry point.  Editing is like any other text processing operation.  Click outside the edit box when done to close and save.  There is no "Undo."
 
-	If you are given "SET_TEMPLATE" permission, you can select the template used for a project by clicking the drop-down arrow to the right of the "Template" window at the top of the browser window
+	2. Similar editing in Analysis mode for users granted that permission enters data that is not carried back into the Data mode (which is reserved for the original data as recorded at the time the image was entered into the database). This mode is used for preparing metadata for access is authorized by the permission EDIT_ANALYSIS_METADATA.
 
-D.  UPLOAD
+	3.  "Add new attribute" [for persons with Data_Edit pemission?] - adds an attribute box labeled by what is typed in the set-up screen, then the "value" of the attribute can be entered in the regular data field.  The added atribute carries over into the Analysis mode.  It does not become incorporated in the template -- i.e. it is image-specific.  It can be viewed by all aothorized to view the metadata for that image.  If added in the Analysis mode, it does not carry back into Data mode.
+
+	4.  In either Data mode or Analysis mode, editing data entered previously in that mode generates a model-specific history log, indicated for users authrized to view history by an icon on the right of the data field.  View the history by clicking the icon.
+
+	5.  To produce a link in one of the metadata fields there are two methods:
+
+		a. The preferred method is to type the web address directly http://address.site.  If you want a handle to show instead, type a "pipe" symbol (vertical bar) after 
+
+D.  TEMPLATE CHOICE
+
+	If you are given "SET_TEMPLATE" permission, you can select the template used for a project by clicking the drop-down arrow to the right of the "Template" window at the top of the browser window.
+
+E.  UPLOAD
 
 	1.   You must (normally) be registered as an "owner" of a project to upload
 
@@ -69,7 +80,8 @@ D.  UPLOAD
 		will appear
 
 	4.  Drag and drop the desired file onto the screen.  The name of the uploaded
-		file will appear below the "upload" link.
+		file will appear below the "upload" link [WARNING: file name must n0t include non-
+            alphanumeric characters except hyphen and underscore].
 
 	5.  Alternatively, click the "Drag files or click to upload" link to bring up a
 		browser window for locating the desired file
@@ -81,7 +93,7 @@ D.  UPLOAD
 	8.  Click the close box to terminate the upload session
 
 
-E.  REPORTING BUGS
+F.  REPORTING BUGS
 
 	1.  Click on the link "Report a bug" at the lower left of the browser window
 	2.  When the GitHub log-in screen appears, enter your user name and password
@@ -90,6 +102,7 @@ E.  REPORTING BUGS
 
 II.  TEMPLATE MANAGER TAB
 
+=========================== OLD MANUAL -- REVISED ABOVE =====================
 
 PODBASE2 INSTRUCTIONS
 
@@ -127,21 +140,6 @@ B.  METADATA EDITING
 	5.  Export the metadata to a .yml (text) file using the Export Metadata link
 	6.  Import replacement metadata (.yml format) for the image being viewed using the 
 		Import Metadata link
-	7. To insert a link into an edit field:
-	
-		a. For internal links to the image browser.. simply insert the link into an
-		   attribute.. such as:
-			https://podbase.net/entry/14#/TestProject/document.png
-
-		b. For external links, simply enter the URL starting with http
-			http://www.google.com
-
-		c. In order to choose a name for it, use a pipe to delineate the name followed
-		   by the URL:
-			Visit Google|http://www.google.com
-
-		Julian [2014-12-01]
-	
 
 C.  TEMPLATE CHOICE
 
@@ -203,6 +201,9 @@ III.  TEMPLATE MANAGER TAB
 		 (if CREATE_TEMPLATES is granted), renaming and exporting the template.
 
 IV.  PROJECT PERMISSIONS TAB - available if "MANAGE_PEMISSIONS" is granted.  See Owner's Manual
+
+	
+
 
 	</pre>
 </body>
